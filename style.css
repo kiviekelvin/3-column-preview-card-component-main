@@ -1,0 +1,107 @@
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #beb6b6;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+body p {
+    font-family: Lexend Deca;
+    font-weight: 400;
+    line-height: 1.8em;
+}
+
+body h1 {
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+}
+.body-container {
+    width: 60%;  
+    background-color: #FFFFE0;
+    padding: 0;
+    border: none;
+    border-radius: 12px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 15px;
+    background-color: red;
+}
+
+.item-1 {
+    padding: 20px;
+    background-color: hsl(31, 77%, 52%);
+    padding: 40px 40px;
+    /*border: none;
+    border-radius: 12px 0px 0px 12px;*/
+}
+
+.item-2 {
+    padding: 20px;
+    background-color: hsl(184, 100%, 22%);
+    padding: 40px 40px;
+}
+
+.item-3 {
+    padding: 20px;
+    background-color: hsl(179, 100%, 13%);
+    padding: 40px 40px;
+    /*border: none;
+    border-radius: 0px 12px 12px 0px;*/
+}
+
+@media (max-width: 600px) {
+    .main-container {
+        grid-template-columns: 1fr;;
+    }
+}
+
+.learn-more {
+    padding: 15px 30px;
+    margin: 10% 0px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 60px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    text-align: center;
+    font-family: Lexend Deca;
+}
+
+.item-1 button {
+    color: hsl(31, 77%, 52%);
+}
+
+.item-2 button {
+    color: hsl(184, 100%, 22%);
+}
+
+.item-3 button {
+    color: hsl(179, 100%, 13%);
+}
+
+.item-1 button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+.item-2 button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: #ffffff;
+    border: 2px solid white;
+}
+
+.item-3 button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: #ffffff;
+    border: 2px solid white;
+}
