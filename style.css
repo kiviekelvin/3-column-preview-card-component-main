@@ -22,7 +22,8 @@ body h1 {
     font-weight: 700;
 }
 .body-container {
-    width: 60%;  
+    width: 60%;
+    height: 70%;  
     background-color: #FFFFE0;
     padding: 0;
     border: none;
@@ -37,30 +38,31 @@ body h1 {
 }
 
 .item-1 {
-    padding: 20px;
     background-color: hsl(31, 77%, 52%);
     padding: 40px 40px;
-    /*border: none;
-    border-radius: 12px 0px 0px 12px;*/
+    border: none;
+    border-radius: 12px 0px 0px 12px;
 }
 
 .item-2 {
-    padding: 20px;
     background-color: hsl(184, 100%, 22%);
     padding: 40px 40px;
 }
 
 .item-3 {
-    padding: 20px;
     background-color: hsl(179, 100%, 13%);
     padding: 40px 40px;
-    /*border: none;
-    border-radius: 0px 12px 12px 0px;*/
+    border: none;
+    border-radius: 0px 12px 12px 0px;
 }
 
 @media (max-width: 600px) {
     .main-container {
-        grid-template-columns: 1fr;;
+        grid-template-columns: 1fr;
+    }
+
+    .body-container {
+        width: 90%;
     }
 }
 
