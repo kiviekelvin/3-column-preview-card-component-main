@@ -33,7 +33,6 @@ body h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     border-radius: 15px;
-    background-color: red;
 }
 
 .item-1 {
@@ -59,7 +58,7 @@ body h1 {
     .main-container {
         grid-template-columns: 1fr;
         margin-top: 20px;
-        margin-bottom: 20px;
+        margin-bottom: 200px;
     }
 
     .body-container {
@@ -74,6 +73,7 @@ body h1 {
     }
 
     .item-3 {
+        margin-bottom: 20px;
         border-radius: 0px 0px 15px 15px;
     }
 }
